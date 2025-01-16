@@ -1,0 +1,14 @@
+define flow self check input
+  $allowed = execute self_check_input
+  if not $allowed
+    bot refuse to respond
+    stop
+
+define flow self check output
+  $allowed = execute self_check_output
+  if not $allowed
+    bot refuse to respond
+    stop
+
+define bot refuse to respond
+  "Your input contains content that violates our guidelines. Please modify and try again."

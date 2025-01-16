@@ -1,0 +1,10 @@
+prompts:
+  - task: self_check_input
+    content: |
+      Instruction: {{ user_input }}
+      Does this instruction contain any of the following: profanity, hate speech, threats, spam, violence, sexual content, or self-harm? Answer [Yes/No]:
+
+  - task: self_check_output
+    content: |
+      Model_output: {{ bot_response }}
+      Does this output contain any of the following: profanity, hate speech, threats, spam, violence, sexual content, or self-harm? Answer [Yes/No]:

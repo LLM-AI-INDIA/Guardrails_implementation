@@ -1,0 +1,15 @@
+anthropic==0.40.0
+nemoguardrails==0.11.0
+openai==1.57.0
+pandas==2.2.3
+python-dotenv==1.0.1
+streamlit==1.39.0
+streamlit-chat==0.1.1
+google_cloud_aiplatform==1.74.0
+guardrails-ai==0.6.0
+google-api-python-client==2.154.0
+google-generativeai==0.8.3
+opencv-python-headless==4.10.0.84
+googleapis-common-protos==1.66.0
+grpcio-tools==1.56.0
+protoc-gen-openapiv2==0.0.1
